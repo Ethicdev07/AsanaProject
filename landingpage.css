@@ -39,3 +39,49 @@ header{
     color: #222;
     font-size: 1em;
 }
+.btn-icon{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.fa-solid {
+    color: #222;
+    font-size: 1.4em;
+}
+.btn-icon button{
+    padding: 5px 20px;
+    background-color: #122222;
+    border-radius: 5px;
+    border: none;
+}
+.btn-icon button a{
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+.btn-icon button:hover{
+    background-color: #f8f8f8;
+}
+.btn-icon button:hover a{
+    color: #122222;
+}
+.fa-bars{
+    visibility: hidden;
+}
+
+/* --media query--- */
+@media(max-width:844px){
+    .menu-list{
+        display: none;
+    }
+    .btn-icon button{
+        display: none;
+    }
+    .fa-bars{
+        visibility: visible;
+    }
+    .nav_link{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
