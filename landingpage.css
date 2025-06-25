@@ -100,3 +100,14 @@ header{
     width: 600px;
     border-radius: 50px;
 }
+
+@media(max-width:938px){
+    .hero-sect{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
